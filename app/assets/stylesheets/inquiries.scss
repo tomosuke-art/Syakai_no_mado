@@ -1,0 +1,42 @@
+// Place all the styles related to the inquiries controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.topPage, .confirmPage {
+  margin: 100px 0;
+  .btn-primary, .btn-info {
+    width: 200px;
+    padding: 10px;
+  }
+  .form-control {
+    margin: 10px 0;
+  }
+}
+
+// 確認画面
+.confirmPage {
+  &_title {
+    margin-bottom:50px;
+  }
+  .confirmForm{
+    &_item {
+      border-bottom: 1px solid #ccc;
+      margin-bottom: 40px;
+      > h3 {
+        font-size: 19px;
+        font-weight: bold;
+      }
+    }
+  }
+  .btn-info {
+    margin-right: 20px;
+  }
+}
+
+// サンクスページ
+.thanksPage {
+  text-align: center;
+  &_message {
+    font-size: 30px;
+    margin-top: 50px;
+  }
+}
